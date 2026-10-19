@@ -36,7 +36,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
-          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
           config_animations: no
 
           # test theme will ill change based on how it looks
