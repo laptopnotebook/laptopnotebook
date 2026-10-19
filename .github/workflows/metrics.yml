@@ -71,5 +71,5 @@ jobs:
 
           plugin_activity: yes
           plugin_activity_visibility: all
-          plugin_activity_days: 0
+          plugin_activity_days: 14
           plugin_activity_limit: 5
