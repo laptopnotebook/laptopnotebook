@@ -60,9 +60,12 @@ jobs:
             }
 
           plugin_languages: yes
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_colors: rust:#C9A3FF, typescript:#A855F7, go:#7E57C2, c++:#D8B4FE
           plugin_languages_details: percentage, bytes-size
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout_repositories: 15
+          plugin_activity: yes
+          plugin_activity_visibility: all
