@@ -30,7 +30,7 @@
 
 <div align="center">
 
-<img src="./github-metrics.svg" alt="GitHub metrics for laptopnotebook" width="100%" />
+<img src="./github-metrics.svg" alt="metrics" width="60%" />
 
 </div>
 

@@ -35,10 +35,8 @@ jobs:
 
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: America/Port_of_Spain
+          config_timezone: America/New_York
           config_order: base.header, base.activity, base.community, base.repositories, base.metadata
-          config_display: regular
-          config_padding: 0, 8 + 4%
           config_animations: no
 
           # test theme will ill change based on how it looks
@@ -58,8 +56,3 @@ jobs:
             a {
               color: #C084FC !important;
             }
-
-          plugin_activity: yes
-          plugin_activity_visibility: all
-          plugin_activity_days: 14
-          plugin_activity_limit: 5
