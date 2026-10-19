@@ -41,7 +41,7 @@ jobs:
           config_padding: 0, 8 + 4%
           config_animations: no
 
-          # Purple theme
+          # test theme will ill change based on how it looks
           extras_css: |
             :root {
               --color-calendar-graph-day-bg: #18151F;
