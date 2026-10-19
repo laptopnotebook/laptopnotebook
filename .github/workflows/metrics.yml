@@ -15,6 +15,17 @@ jobs:
       contents: write
 
     steps:
+      - name: Check token secret
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -n "$METRICS_TOKEN" ]; then
+            echo "METRICS_TOKEN is present"
+          else
+            echo "METRICS_TOKEN is EMPTY"
+            exit 1
+          fi
+
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -30,6 +41,7 @@ jobs:
           config_padding: 0, 8 + 4%
           config_animations: no
 
+          # Purple theme
           extras_css: |
             :root {
               --color-calendar-graph-day-bg: #18151F;
@@ -38,11 +50,13 @@ jobs:
               --color-calendar-graph-day-L3-bg: #A855F7;
               --color-calendar-graph-day-L4-bg: #D8B4FE;
             }
+
             h1, h2, h3 {
-              color: #C9A3FF;
+              color: #C9A3FF !important;
             }
+
             a {
-              color: #C084FC;
+              color: #C084FC !important;
             }
 
           plugin_languages: yes
