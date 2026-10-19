@@ -11,13 +11,6 @@
 - **Interests:** Game modding & reverse engineering sometimes
 - Usually working on something random or learning something new.
 
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
-</table>
-
 ## Languages & tools
 
 <div align="center">
@@ -35,7 +28,7 @@
 
 <div align="center">
 
-<img src="./github-metrics.svg" alt="GitHub metrics for laptopnotebook" width="100%">
+<img src="./github-metrics.svg" alt="GitHub metrics for laptopnotebook" width="100%" />
 
 </div>
 
