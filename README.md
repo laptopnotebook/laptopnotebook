@@ -2,6 +2,8 @@
 
 # im skies
 
+[![Discord Activity Card](https://discord-activity-card.vercel.app/api/status/660206115480403988?bg=0c0a0a&border=0c0a0a&title=7b3335&profile=true&decoration=true&small_image=true&name_type=display)](https://discord.com/users/660206115480403988)
+
 </div>
 
 ## About me

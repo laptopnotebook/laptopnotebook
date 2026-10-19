@@ -34,9 +34,9 @@ jobs:
           filename: github-metrics.svg
 
           template: classic
-          base: header, community, repositories, metadata
+          base: header, activity, community, repositories, metadata
           config_timezone: America/Port_of_Spain
-          config_order: base.header, base.community, base.repositories, base.metadata
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
           config_display: regular
           config_padding: 0, 8 + 4%
           config_animations: no
@@ -68,3 +68,8 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
           plugin_languages_colors: rust:#C9A3FF, typescript:#A855F7, go:#7E57C2, c++:#D8B4FE
+
+          plugin_activity: yes
+          plugin_activity_visibility: all
+          plugin_activity_days: 14
+          plugin_activity_limit: 5
