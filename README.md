@@ -2,14 +2,7 @@
 
 # im skies
 
-[![Rust](https://img.shields.io/badge/Rust-18151F?style=flat-square&logo=rust&logoColor=C9A3FF)](https://www.rust-lang.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-18151F?style=flat-square&logo=typescript&logoColor=C9A3FF)](https://www.typescriptlang.org/)
-[![Go](https://img.shields.io/badge/Go-18151F?style=flat-square&logo=go&logoColor=C9A3FF)](https://go.dev/)
-[![C++](https://img.shields.io/badge/C%2B%2B-18151F?style=flat-square&logo=cplusplus&logoColor=C9A3FF)](https://isocpp.org/)
-
 </div>
-
----
 
 ## About me
 
@@ -29,10 +22,10 @@
 
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-18151F?style=flat-square&logo=rust&logoColor=C9A3FF)
-![TypeScript](https://img.shields.io/badge/TypeScript-18151F?style=flat-square&logo=typescript&logoColor=C9A3FF)
-![Go](https://img.shields.io/badge/Go-18151F?style=flat-square&logo=go&logoColor=C9A3FF)
-![C++](https://img.shields.io/badge/C%2B%2B-18151F?style=flat-square&logo=cplusplus&logoColor=C9A3FF)
+<img src="https://img.shields.io/badge/Rust-18151F?style=for-the-badge&logo=rust&logoColor=C9A3FF" alt="Rust" />
+<img src="https://img.shields.io/badge/TypeScript-18151F?style=for-the-badge&logo=typescript&logoColor=C9A3FF" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Go-18151F?style=for-the-badge&logo=go&logoColor=C9A3FF" alt="Go" />
+<img src="https://img.shields.io/badge/C%2B%2B-18151F?style=for-the-badge&logo=cplusplus&logoColor=C9A3FF" alt="C++" />
 
 </div>
 
